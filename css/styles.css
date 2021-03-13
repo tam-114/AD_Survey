@@ -1,0 +1,153 @@
+body {
+	padding-top: 30px;
+	background-color: #ffffff; /*white*/
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item {
+	text-align: center;
+}
+
+.header {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	background-color: #000048; /*dark blue*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	font-size: 25px;
+	font-family: Impact, sans-serif;
+	color: #ffffff; /*white*/
+	
+
+}
+.content {
+	padding-top: 5px;
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
+}
+
+.sidebar {
+	grid-column: 2;
+	grid-row: 2;
+	height: 100%;
+  	position: fixed;
+  	z-index: -1;
+  	right: 0;
+  	background-color: #0060a8; /*blue*/
+}
+.footer {
+	grid-column: 1 / span 2;
+	grid-row: 3;
+	background-color: #000048; /*dark blue*/
+	text-align: center;
+	position: fixed;
+	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	font-family: "Arial", sans-serif;
+	color: #ffffff; /*white*/
+}
+
+.fieldOne {
+	background-color: #f00000; /*dark red*/
+	margin-bottom: 5px;
+}
+
+.fieldTwo {
+	background-color: #0060a8; /*blue*/
+	padding: 5px;
+}
+
+.fieldThree {
+	background-color: #000048; /*dark blue*/
+	margin-top: 5px;
+}
+
+#firstName_id {
+	border: 2px black solid;
+	margin: 2px;
+	border-radius: 18px;
+}
+
+#lastName_id {
+	border: 2px black solid;
+	margin: 2px;
+	border-radius: 18px;
+}
+
+#email_id {
+	border: 2px black solid;
+	margin: 2px;
+	border-radius: 18px;
+}
+
+#phoneNum_id {
+	border: 2px black solid;
+	margin: 2px;
+	border-radius: 18px;
+}
+
+#studentAddress_id {
+	border: 2px black solid;
+	margin: 2px;
+	border-radius: 18px;
+}
+label {
+	font-family: "Arial", sans-serif;
+	color: #ffffff; /*white*/
+}
+legend {
+	font-family: "Arial", sans-serif;
+	color: #ffffff; /*white*/
+}
+
+.input {
+	padding: 5px;
+	color: white;
+}
+
+.text {
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	color: #ff0000; /*red**/
+}
+
+.smallIcon {
+	width: 20px;
+	height: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	color: #ff0000; /*red*/
+}
+p {
+	color: #ffffff; /*white*/
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	padding-right: 5px;
+	line-height: 2px;
+}
+.sidebar, img {
+	border: 2px solid #ff0000; /*red*/
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #ff0000; /*red*/
+}
+
+.hint {
+	color: #ffffff; /*white*/
+}

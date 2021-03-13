@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Survey - Taylor Stanley</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/process_form.js"></script>
+</head>
+<body class="grid">
+
+<header class="grid-item header">What American Dad&#8482; character are you?</header>
+
+<form action="process.php" method="post" name="myForm" class="content">
+	<div class="fieldOne">
+		<fieldset>
+			<legend>Personal Info</legend>
+				<div class="input">
+					<label for="firstName_id" id="hintFirstName">First Name:</label>
+					<br>
+					<input type="text" id="firstName_id" name="firstName" value=""/>
+				</div>
+				<div class="input">
+					<label for="lastName_id" id="hintLastName">Last Name:</label>
+					<br>
+					<input type="text" id="lastName_id" name="lastName" value=""/>
+				</div>
+				<div class="input">
+					<label for="email_id" id="hintEmail">E-Mail Address:</label>
+					<br>
+					<input type="email" id="email_id" name="emailAdd">
+				</div>
+				<div class="input">
+					<label for="phoneNum_id" id="hintPhone">Phone Number:</label>
+					<br>
+					<input type="tel" id="phoneNum_id" name="phoneNum">
+				</div>
+				<div class="input">
+					<label for="studentAddress_id" id="hintStuAdd">Website Address:</label>
+					<br>
+					<input type="url" id="studentAddress_id" name="stuAdd">
+				</div>
+		</fieldset>
+	</div>
+
+		<div class="fieldTwo">
+			<fieldset>
+				<legend>What is your preferred field of study?</legend>
+					<div>
+						<input type="radio" id="marineBiology_id" name="americanDad_character" value="marineBiology">
+						<label for="marineBiology_id">I'm interested in Marine Biology.</label>	
+					</div>
+					<div>
+						<input type="radio" id="spaceology_id" name="americanDad_character" value="spaceology">
+						<label for="spaceology_id">I'm interested in Spaceology.</label>
+					</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldThree">
+			<fieldset>
+				<legend>What life form are you most interested in?</legend>
+				<div>
+					<input type="radio" id="alien_id" name="character" value="alien">
+					<label for="alien_id">Aliens</label>
+					
+				</div>
+				<div>
+					<input type="radio" id="fish_id" name="character" value="fish">
+					<label for="fish_id">Sea Animals</label>
+				</div>
+			</fieldset>
+		</div>
+		
+		<div>
+				<input type="submit" name="submit" id="submit" value="submit">
+		</div>
+</form>
+<div class="sidebar">
+		<h2>Top Articles</h2>
+			<p>Does Steve Smith have an album?</p>
+			<p><a href="https://americandad.fandom.com/wiki/Sunset_Blvd">Click here</a> to find out!</p>
+
+	<ul>
+		<li><img src="img/img_steve.jpg" width="200" height="200" alt=" Drawn Steve Smith - American Dad character"></li>
+		
+		<li><img src="img/img_haley.jpg" width="200" height="200" alt=" Drawn Haley Smith - American Dad character"></li>
+	</ul>
+			<p>Who is the real father of Haley Smith?</p>
+			<p><a href="https://americandad.fandom.com/wiki/Joel_Larson">Learn</a> more here!</p>
+</div>
+	<footer class="footer">Created by Taylor Stanley</footer>
+</body>
+</html>
